@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <title>Taylor Kaldahl: Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper white">
+                <a href="#" class="black-text brand-logo left hide-on-small-only">TK<i class="large material-icons">change_history</i></a>
+                <a href="#" class="black-text brand-logo center hide-on-med-and-up">TK</a>
+                <a href="#" data-target="mobile-dropdown" class="sidenav-trigger hide-on-med-and-up"><i class="black-text material-icons">menu</i></a>
+                <ul class="right hide-on-small-only">
+                    <li><a href="#block2" class="black-text waves-effect">About Me</a></li>
+                    <li><a href="#projectGallery" class="black-text waves-effect">Project Gallery</a></li>
+                    <li><a href="#block3" class="black-text waves-effect">Contact Info</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav left" id="mobile-dropdown">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="assets/images/watercolor tree.jpg">
+                    </div>
+                    <a href="#!user"><img class="circle" src="assets/images/Smaller data version.jpg"></a>
+                    <a href="#!name"><span class="black-text name">Taylor Kaldahl</span></a>
+                    <a href="#!email"><span class="black-text email">tkaldahl90@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a href="#" class="waves-effect">About Me</a></li>
+            <li><a href="#" class="dropdown-trigger waves-effect" data-target="project-gallery-dropdown">Projects<i class="material-icons small right">arrow_drop_down</i></a></li>
+            <!-- <li><a href="https://tkaldahl.github.io/Tay-Tower-Game/" target="_blank">Tay's Tenacity Testing Towers</a></li>
+            <li><a href="https://shielded-beyond-29117.herokuapp.com/" target="_blank">Eloquence Enhancer</a></li> -->
+            <!-- <li><a href="http://remory-front.surge.sh/" target="_blank">Remory</a></li> -->
+            <li><a href="#" class="waves-effect">Contact Me</a></li>
+        </ul>
+        <ul class="dropdown-content" id="project-gallery-dropdown">
+            <li><a href="https://tkaldahl.github.io/Tay-Tower-Game/" target="_blank">Tay's Tenacity Testing Towers</a></li>
+            <li><a href="https://shielded-beyond-29117.herokuapp.com/" target="_blank">Eloquence Enhancer</a></li>
+            <li><a href="http://remory-front.surge.sh/" target="_blank">Remory</a></li>
+        </ul>
+    </header>
+    <main>
+            <div class="row">
+                <h1 class="col s5 center offset-s1 hide-on-small-only">Taylor</h1>
+                <h1 class="col s5 center hide-on-small-only">Kaldahl</h1>
+                <h1 class=" center hide-on-med-and-up">Taylor Kaldahl</h1>
+            </div>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script> M.AutoInit() </script>
+</body>
+</html>
