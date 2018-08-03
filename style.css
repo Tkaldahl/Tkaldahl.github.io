@@ -1,4 +1,4 @@
-body {
+/* body {
 
     min-height: 900px;
     width: 100%;
@@ -103,4 +103,15 @@ content.block3 {
 
 aside a {
     text-align: center;
+} */
+
+.space-wallpaper {
+    background-image: url("assets/images/bright-bulb-dark-132340.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.dark-wallpaper {
+    background: linear-gradient(#594d49, black/* , #b5735fcf */)
 }

@@ -6,54 +6,131 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <title>Taylor Kaldahl: Portfolio</title>
 </head>
-<body>
+<body class="dark-wallpaper">
     <header>
-        <nav>
-            <div class="nav-wrapper white">
-                <a href="#" class="black-text brand-logo left hide-on-small-only">TK<i class="large material-icons">change_history</i></a>
-                <a href="#" class="black-text brand-logo center hide-on-med-and-up">TK</a>
-                <a href="#" data-target="mobile-dropdown" class="sidenav-trigger hide-on-med-and-up"><i class="black-text material-icons">menu</i></a>
-                <ul class="right hide-on-small-only">
-                    <li><a href="#block2" class="black-text waves-effect">About Me</a></li>
-                    <li><a href="#projectGallery" class="black-text waves-effect">Project Gallery</a></li>
-                    <li><a href="#block3" class="black-text waves-effect">Contact Info</a></li>
-                </ul>
-            </div>
-        </nav>
-        <ul class="sidenav left" id="mobile-dropdown">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="assets/images/watercolor tree.jpg">
-                    </div>
-                    <a href="#!user"><img class="circle" src="assets/images/Smaller data version.jpg"></a>
-                    <a href="#!name"><span class="black-text name">Taylor Kaldahl</span></a>
-                    <a href="#!email"><span class="black-text email">tkaldahl90@gmail.com</span></a>
+        <!-- The entire header tag is code for the upper nav and side-nav (mobile) -->
+        <div class="">
+            <nav>
+                <div class="nav-wrapper dark-wallpaper">
+                    <a href="#" class="white-text brand-logo left hide-on-small-only">TK<i class="large material-icons">change_history</i></a>
+                    <a href="#" class="white-text brand-logo center hide-on-med-and-up">TK</a>
+                    <a href="#" data-target="mobile-dropdown" class="sidenav-trigger hide-on-med-and-up"><i class="white-text material-icons">menu</i></a>
+                    <ul class="right hide-on-small-only">
+                        <li><a href="#block2" class="white-text waves-effect">About Me</a></li>
+                        <li><a href="#projectGallery" class="white-text waves-effect">Project Gallery</a></li>
+                        <li><a href="#block3" class="white-text waves-effect">Contact Info</a></li>
+                    </ul>
                 </div>
-            </li>
-            <li><a href="#" class="waves-effect">About Me</a></li>
-            <li><a href="#" class="dropdown-trigger waves-effect" data-target="project-gallery-dropdown">Projects<i class="material-icons small right">arrow_drop_down</i></a></li>
-            <!-- <li><a href="https://tkaldahl.github.io/Tay-Tower-Game/" target="_blank">Tay's Tenacity Testing Towers</a></li>
-            <li><a href="https://shielded-beyond-29117.herokuapp.com/" target="_blank">Eloquence Enhancer</a></li> -->
-            <!-- <li><a href="http://remory-front.surge.sh/" target="_blank">Remory</a></li> -->
-            <li><a href="#" class="waves-effect">Contact Me</a></li>
-        </ul>
-        <ul class="dropdown-content" id="project-gallery-dropdown">
-            <li><a href="https://tkaldahl.github.io/Tay-Tower-Game/" target="_blank">Tay's Tenacity Testing Towers</a></li>
-            <li><a href="https://shielded-beyond-29117.herokuapp.com/" target="_blank">Eloquence Enhancer</a></li>
-            <li><a href="http://remory-front.surge.sh/" target="_blank">Remory</a></li>
-        </ul>
+            </nav>
+            <ul class="sidenav left" id="mobile-dropdown">
+                <li>
+                    <div class="user-view">
+                        <div class="background blue-grey lighten-1">
+                            <!-- <img src="assets/images/watercolor tree.jpg"> -->
+                        </div>
+                        <a href="#!user"><img class="circle" src="assets/images/WDI23 - 7598 Square_low-res.jpg"></a>
+                        <a href="#!name"><span class="black-text name">Taylor Kaldahl</span></a>
+                        <a href="#!email"><span class="black-text email">tkaldahl90@gmail.com</span></a>
+                    </div>
+                </li>
+                <div class="divider blue-grey lighten-5"></div>
+                <li><a href="#" class="waves-effect">About Me</a></li>
+                <li><a href="#" class="dropdown-trigger waves-effect" data-target="project-gallery-dropdown">Projects<i class="material-icons small right">arrow_drop_down</i></a></li>
+                <li><a href="#" class="waves-effect">Contact Me</a></li>
+            </ul>
+            <ul class="dropdown-content" id="project-gallery-dropdown">
+                <li><a class="" href="https://tkaldahl.github.io/Tay-Tower-Game/" target="_blank">Tay's Tenacity Testing Towers</a></li>
+                <li><a class="" href="https://shielded-beyond-29117.herokuapp.com/" target="_blank">Eloquence Enhancer</a></li>
+                <li><a class="" href="http://remory-front.surge.sh/" target="_blank">Remory</a></li>
+                <li><a href="#projectGallery">Project Gallery</a></li>
+            </ul>
+        </div>
     </header>
     <main>
+        <div class="space-wallpaper">
             <div class="row">
-                <h1 class="col s5 center offset-s1 hide-on-small-only">Taylor</h1>
-                <h1 class="col s5 center hide-on-small-only">Kaldahl</h1>
-                <h1 class=" center hide-on-med-and-up">Taylor Kaldahl</h1>
+                <h1 class="col s5 center offset-s1 hide-on-small-only white-text">Taylor</h1>
+                <h1 class="col s5 center hide-on-small-only white-text">Kaldahl</h1>
+                <h1 class=" center hide-on-med-and-up white-text">Taylor Kaldahl</h1>
             </div>
+            <div class="section row">
+                <div class="container col s10 offset-s1 left-align">
+                    <div class="container col s2 left white-text">
+                        <h3>Fresh Perspective</h3>
+                    </div>
+                    <div class="container offset-s8 col s2 left white-text">
+                        <h3>Elegant Design</h3>
+                    </div>
+                    <div class="container col s7">
+                        <!-- <img class="responsive-img" src="assets/images/Hiking Picture.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="section">
+        </div>
+        <div class="row" id="projectGallery">
+            <div class="section blue-grey lighten-5 col s10 offset-s1">
+                <h2 class="center">Project Gallery</h2>
+                <div class="divider blue-grey darken-3"></div>
+                <div class="section">
+                    <div class="row">
+                        <div class="project-container col s12">
+                            <div class="row blue-grey lighten-5 valign-wrapper">
+                                <div class="img-container col s6">
+                                    <img class="responsive-img" src="assets/images/Project1.png" alt="">
+                                </div>
+                                <div class="description-container col s6">
+                                    <h3 class="">My Very First Project: A humble beginning</h3>
+                                    <p>I dove into the world of code, using JS, CSS, and HTML to build a game. I had a blast writing the animation for the blocks, at first building a custom animation and then discovering the power of keyframes!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider blue-grey darken-3"></div>
+                <div class="section">
+                    <div class="row">
+                        <div class="project-container col s12">
+                            <div class="row blue-grey lighten-5 valign-wrapper">
+                                <div class="description-container col s6">
+                                    <h3>My Second Project: This is pretty overwhelming</h3>
+                                    <p>At this point I felt like I was drinking through a firehose. Despite coming in early and staying late, the MEHN stack wasn't making sense. I had trouble even saving users after they signed up using an email & password. Finally, with just two days left to work on the project, the lightbulb went off and I understood how everything routes, controllers, and views all connected. I'm really proud of this project because it put up the biggest fight.</p>
+                                </div>
+                                <div class="img-container col s6">
+                                    <img class="responsive-img" src="assets/images/Project2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider blue-grey darken-3"></div>
+                <div class="section">
+                    <div class="row">
+                        <div class="project-container col s12">
+                            <div class="row blue-grey lighten-5 valign-wrapper">
+                                <div class="img-container col s6">
+                                    <img class="responsive-img" src="assets/images/Project3.png" alt="">
+                                </div>
+                                <div class="description-container col s6">
+                                    <h3>My Third Project: I'm pretty good at this</h3>
+                                    <p>In my third project I felt like I got my feet under me. I used the MERN stack and learned how to work with a team using gitflow.</p>                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="blue-grey lighten-4 center section">
+        <p>Contact info goes here</p>
+        <p>social media links go here</p>
+    </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script> M.AutoInit() </script>
