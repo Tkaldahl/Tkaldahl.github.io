@@ -6,31 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
     <title>Taylor Kaldahl: Portfolio</title>
 </head>
 <body class="dark-wallpaper">
     <header>
         <!-- The entire header tag is code for the upper nav and side-nav (mobile) -->
-        <div class="">
+        <div>
             <nav>
-                <div class="nav-wrapper dark-wallpaper">
-                    <a href="#" class="white-text brand-logo left hide-on-small-only">TK<i class="large material-icons">change_history</i></a>
-                    <a href="#" class="white-text brand-logo center hide-on-med-and-up">TK</a>
-                    <a href="#" data-target="mobile-dropdown" class="sidenav-trigger hide-on-med-and-up"><i class="white-text material-icons">menu</i></a>
-                    <ul class="right hide-on-small-only">
-                        <li><a href="#block2" class="white-text waves-effect">About Me</a></li>
-                        <li><a href="#projectGallery" class="white-text waves-effect">Project Gallery</a></li>
-                        <li><a href="#contactInfo" class="white-text waves-effect dropdown-trigger" data-target="contactInfo">Contact Info</a></li>
+                <div class="nav-wrapper dark-wallpaper valign-wrapper navBar row hide-on-med-and-down">
+                    <ul class="right col s12">
+                        <li class="col s1 removePadding"><a href="#block2" class="black-text waves-effect">About</a></li>
+                        <li class="col s1 removePadding"><a href="#projectGallery" class="black-text waves-effect">Projects</a></li>
+                        <li class="col s1 removePadding"><a href="#contactInfo" class="black-text waves-effect dropdown-trigger" data-target="contactInfo">Contact</a></li>
+                        <h3 class="col s2 offset-s2 black-text TK">TK</h3>
+                        <a href="mailto:tkaldahl90@gmail.com?Subject=Let&#39s%20Get%20To%20Know%20Each%20Other" class="col s1 offset-s1 valign-wrapper"><div data-icon="ei-sc-telegram" data-size="m"></div></a>
+                        <a href="www.linkedin.com/in/taylor-code-conquering-kaldahl" class="col s1 valign-wrapper"><div data-icon="ei-sc-linkedin" data-size="m"></div></a>
+                        <a href="https://github.com/Tkaldahl" class="col s1 valign-wrapper"><div data-icon="ei-sc-github" data-size="m"></div></a>
+                        <a href="https://twitter.com/TaylorKaldahl" class="col s1 valign-wrapper"><div data-icon="ei-sc-twitter" data-size="m"></div></a>
+                    </ul>
+                </div>
+                <div class="nav-wrapper dark-wallpaper valign-wrapper navBar row hide-on-large-only hide-on-small-only">
+                    <a href="#" data-target="mobile-dropdown" class="sidenav-trigger col-s4"><i class="black-text material-icons">menu</i></a>
+                    <ul class="right col s8">
+                        <h3 class="col s2 offset-s2 black-text TK">TK</h3>
+                        <a href="mailto:tkaldahl90@gmail.com?Subject=Let&#39s%20Get%20To%20Know%20Each%20Other" class="col s1 offset-s4 valign-wrapper"><div data-icon="ei-sc-telegram" data-size="m"></div></a>
+                        <a href="www.linkedin.com/in/taylor-code-conquering-kaldahl" class="col s1 valign-wrapper removePadding"><div data-icon="ei-sc-linkedin" data-size="m"></div></a>
+                        <a href="https://github.com/Tkaldahl" class="col s1 valign-wrapper removePadding"><div data-icon="ei-sc-github" data-size="m"></div></a>
+                        <a href="https://twitter.com/TaylorKaldahl" class="col s1 valign-wrapper removePadding"><div data-icon="ei-sc-twitter" data-size="m"></div></a>
                     </ul>
                     <ul class="dropdown-content dark-wallpaper" id="contactInfo">
-                        <li><a href="mailto:tkaldahl90@gmail.com?Subject=Let&#39s%20Get%20To%20Know%20Each%20Other" class="white-text" target="_top">Email</a></li>
-                        <li><a href="www.linkedin.com/in/taylor-code-conquering-kaldahl" class="white-text" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://twitter.com/TaylorKaldahl" class="white-text" target="_blank">Twitter</a></li>
-                        <li><a href="https://www.instagram.com/taylorkaldahl/" class="white-text" target="_blank">Instagram</a></li>    
-                        <li><a href="https://www.facebook.com/taylor.kaldahl" class="white-text" target="_blank">Facebook</a></li>    
+                        <li><a href="mailto:tkaldahl90@gmail.com?Subject=Let&#39s%20Get%20To%20Know%20Each%20Other" class="black-text" target="_top">Email</a></li>
+                        <li><a href="www.linkedin.com/in/taylor-code-conquering-kaldahl" class="black-text" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/Tkaldahl" class="black-text" target="_blank">Github</a></li>
+                        <li><a href="https://twitter.com/TaylorKaldahl" class="black-text" target="_blank">Twitter</a></li>
                     </ul>
+                </div>
+                <div class="nav-wrapper dark-wallpaper valign-wrapper navBar hide-on-med-and-up">
+                    <a href="#!" class="brand-logo black-text TK">TK</a>
+                    <a href="#" data-target="mobile-dropdown" class="sidenav-trigger"><i class="black-text material-icons">menu</i></a>
                 </div>
             </nav>
             <ul class="sidenav left" id="mobile-dropdown">
@@ -45,9 +61,9 @@
                     </div>
                 </li>
                 <div class="divider blue-grey lighten-5"></div>
-                <li><a href="#" class="waves-effect">About Me</a></li>
+                <li><a href="#" class="waves-effect">About</a></li>
                 <li><a href="#" class="dropdown-trigger waves-effect" data-target="project-gallery-dropdown">Projects<i class="material-icons small right">arrow_drop_down</i></a></li>
-                <li><a href="#contactInfo" class="waves-effect dropdown-trigger" data-target="mobileContactInfo">Contact Info</a></li>
+                <li><a href="#contactInfo" class="waves-effect dropdown-trigger" data-target="mobileContactInfo">Contact</a></li>
             </ul>
             <ul class="dropdown-content" id="project-gallery-dropdown">
                 <li><a class="" href="https://tkaldahl.github.io/Tay-Tower-Game/" target="_blank">Tay's Tenacity Testing Towers</a></li>
@@ -65,22 +81,13 @@
         </div>
     </header>
     <main>
-        <div class="space-wallpaper">
-            <div class="row">
-                <h1 class="col s5 center offset-s1 hide-on-small-only white-text">Taylor</h1>
-                <h1 class="col s5 center hide-on-small-only white-text">Kaldahl</h1>
-                <h1 class=" center hide-on-med-and-up white-text">Taylor Kaldahl</h1>
-            </div>
-           <!-- <div class="section row">
-                <div class="container col s10 offset-s1 left-align">
-                    <div class="container col s2 left white-text">
-                        <h3>Fresh Perspective</h3>
-                    </div>
-                    <div class="container offset-s8 col s2 left white-text">
-                        <h3>Elegant Design</h3>
-                    </div>
+        <div class="row wallpaperContainer">
+            <div class="mainWallpaper valign-wrapper center col s12">
+                <div class="col s12">
+                    <h1 class="white-text">Hello,</h1>
+                    <h1 class="white-text">I'm Taylor Kaldahl</h1>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div class="section">
         </div>
@@ -149,8 +156,9 @@
             <a href="https://www.facebook.com/taylor.kaldahl" target="_blank">Facebook</a>
         </div>
     </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script> M.AutoInit() </script>
+    <!-- <script>icons.icon("ei-sc-linkedin", {size: "m"})</script> -->
 </body>
 </html>
