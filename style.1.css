@@ -113,7 +113,11 @@ aside a {
     height: 100%;
 }
 
-.dark-wallpaper {
+.wallpaperContainer {
+    margin-bottom: 0px !important;
+}
+
+.white-wallpaper {
     background: white;
 }
 
@@ -125,11 +129,11 @@ aside a {
     min-height: 20vh;
 }
 
-.foo {
-    fill: black;
-    /* float: right; */
-    position: absolute;
-    /* z-index: 200; */
+#AboutMe {
+    background-image: url("assets/images/alps-cliff-clouds-167684.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .TK {
@@ -141,4 +145,8 @@ aside a {
 .removePadding {
     padding: 0px !important;
     margin: 0px !important;
+}
+
+.headshot {
+    border-radius: 40% !important;
 }
