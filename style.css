@@ -105,13 +105,60 @@ aside a {
     text-align: center;
 } */
 
-.space-wallpaper {
-    background-image: url("assets/images/bright-bulb-dark-132340.jpg");
+.mainWallpaper {
+    background-image: url("assets/images/cool-wallpaper-dawn-dusk-66997.jpg");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    /* height: 80vh; */
+    height: 100%;
 }
 
-.dark-wallpaper {
-    background: linear-gradient(#594d49, black/* , #b5735fcf */)
+.wallpaperContainer {
+    margin-bottom: 0px !important;
+}
+
+.white-wallpaper {
+    background: white;
+}
+
+.wallpaperContainer {
+    height: 92vh;
+}
+
+.navBar {
+    min-height: 20vh;
+}
+
+#AboutMe {
+    background-image: url("assets/images/alps-cliff-clouds-167684.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.TK {
+    font-size: 50px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.removePadding {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.headshot {
+    border-radius: 40% !important;
+}
+
+.aboutMeLinks {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+.socialMediaContainer {
+    background-color: rgba(128, 128, 128, 0.4) !important;
+    border-radius: 10% !important;
+    /* opacity: ; */
+    min-height: 60px !important;
 }
