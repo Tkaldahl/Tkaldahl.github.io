@@ -140,11 +140,28 @@ aside a {
     font-size: 50px !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header-font {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .removePadding {
     padding: 0px !important;
     margin: 0px !important;
+}
+
+.navFont {
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutFont {
+    font-family: 'Nunito', sans-serif;
+}
+
+.projectFont {
+    font-family: 'Nunito', sans-serif;
 }
 
 .headshot {
