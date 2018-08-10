@@ -197,3 +197,7 @@ aside a {
     /* opacity: ; */
     min-height: 60px !important;
 }
+
+.footerEmail {
+    text-decoration: underline;
+}
