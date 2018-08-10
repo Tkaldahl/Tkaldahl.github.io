@@ -160,6 +160,15 @@ aside a {
     font-family: 'Nunito', sans-serif;
 }
 
+.name {
+    font-weight: 900 !important;
+}
+
+.email {
+    font-weight: 900 !important;
+    text-decoration: underline;
+}
+
 .projectFont {
     font-family: 'Nunito', sans-serif;
 }
@@ -171,6 +180,15 @@ aside a {
 .aboutMeLinks {
     text-decoration: underline !important;
     color: white !important;
+}
+
+.tayBackground {
+    background-image: url('assets/images/IMG_0852.jpg');
+    background-size: cover;
+}
+
+.user-view {
+    min-height: 20vh;
 }
 
 .socialMediaContainer {
